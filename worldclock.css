@@ -1,11 +1,12 @@
 .worldclock {
   min-width:270px;
   line-height:normal;
-  display:block;
+/*  display:block;*/
 }
 
-.worldclock .world {
-  margin-bottom: 10px;
+.worldclock .world {;
+  margin-right: 45px;
+  float: left;
 }
 
 .worldclock .time {
@@ -31,7 +32,7 @@
 .worldclock .gap {
   padding:0;
   margin:0;
-  color: #999;
+  color: #fff;
 }
 
 .worldclock .zone {

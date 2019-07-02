@@ -119,7 +119,7 @@ Module.register("worldclock",{
       }
 
       var dur = moment.duration(os, 'minutes')
-      gap = ori + moment.utc(dur.asMilliseconds()).format('HH:mm')
+      gap = ori + moment.utc(dur.asMilliseconds()).format('H') + 'HRS'
     } else {
       gap = "UTC " + clock.format('Z')
     }
